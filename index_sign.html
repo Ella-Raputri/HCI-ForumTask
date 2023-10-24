@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logic Playground</title>
+    <link href="styles_sign.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header grid-container">
+        <h1 class="grid-item"><span class="logic">Logic</span> Playground</h1>
+    </div>
+
+    <div class="top-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index_clock.html">Clock</a></li>
+            <li><a href="index_wordfill.html">Word Fill</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Other Games</a>
+                <div class="dropdown-content">
+                    <a href="index_counting.html">Counting Games</a>
+                    <a href="index_reflect.html">Drawing Reflections</a>
+                </div>
+            </li>
+            <li class="right"><a href="index_about.html">About</a></li>
+        </ul>
+    </div>
+
+    <div class="title"><h1>Sign Up</h1></div>
+        <div class="resp">
+            <section>
+                <p class="instruction">Please fill in the following fields with the required information. </p>
+                <form method="post">
+                <div class="fieldset1">
+                <fieldset>
+                    <label for="name">Enter Your Name: </label>
+                    <input id="name" name="name" type="text" required/>
+
+                <br/><br/>
+                    <label for="age">Input Your Age (years): </label>
+                    <input id="age" name="age" type="text" min="12" max="120" required/>
+                    <br/><br/>
+
+                    <label for="email">Enter Your Email: </label>
+                    <input id="email" name="email" type="email" required/>
+                    <br/><br/>
+
+                    <label for="phone-number">Enter Your Password: </label>
+                    <input id="phone-number" name="phone-number" type="text" min-length="10" max-length="15"required/> <br/><br/>
+                
+                    <label for="bio">Do you have any feedbacks for us?</label>
+                    <textarea id="bio" name="bio" rows="3" cols="70" placeholder="The game is..." ></textarea>
+
+                    <br/><br/>
+                    <input type="checkbox" id="policy" name="policy" required/>
+                    <label for="policy" class="inline">I have agreed to the term and conditions.</label>
+                    <br/><br/>
+                </fieldset>
+                </div>
+
+                <input type="submit" value="Submit" />
+                </form>
+            </section>
+            </div>
+        </main>
+    </div>
+
+    <br/><br/><br/>
+
+    <div class="footer">
+        <p><span class="contact">Contact Us:</span><br/><br/>
+            <a href="https://wa.me/62895629504490"><img src=.\WhatsApp.webp alt="WhatsApp" width="20px"> WhatsApp</a> 
+            <a href="https://www.linkedin.com/in/ella-raputri-128270187"> <img src=".\linkedin.png" alt="LinkedIn" width="20px"> LinkedIn</a>
+            <img src=gmail.png alt="email" width="20px"> ellaraputri@gmail.com
+        </p>
+        <p>Character designs are owned by Hoyoverse Genshin Impact.</p>
+    </div>
+
+</body>
+</html>
